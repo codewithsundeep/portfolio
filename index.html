@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div class="nav">
+        <a href="#cite">Cite</a>
+        <a href="#about">About Me</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#social">Social Links</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact Me</a>
+    </div>
+    <div class="nav-mobile">
+        <label for="check">
+        <div class="bar">
+            <i class="fas fa-bars"></i> 
+    </div>
+    </label>
+        <input type="checkbox" class="dummy-box" id="check">
+        <div class="nav-links">
+            <a href="#cite">Cite</a>
+            <a href="#about">About Me</a>
+            <a href="#expertise">Expertise</a>
+            <a href="#social">Social Links</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+    </div>
+    <div class="top-details">
+        <div class="location" id="cite">
+            <span><i class="fas fa-location-crosshairs"></i> Area<br>West sikkim hee-bermiok India.</span>
+        </div>
+        <div class="phone">
+            <span><i class="fas fa-phone-square"></i> Phone<br><a href="tel:+919339950282">+919339950282</a>
+</span>
+
+        </div>
+        <div class="email">
+            <span>
+               <i class="fas fa-at"></i> Email<br><a href="mailto:ss8367113@gmail.com">ss8367113@gmail.com</a>
+            </span>
+        </div>
+        <div class="web">
+            <span>
+<i class="fas fa-globe"></i> Web <br/><a href="https://codewithsundeep.com">https://codewithsundeep.com</a>
+</span>
+        </div>
+    </div>
+    <!-- top div ended -->
+    <div class="aboutme" id="about">
+        <div class="image">
+            <!-- <img src="./sundeep.jpg" alt="Sundeep Sharma" height="150"> -->
+
+        </div>
+        <div class="about">
+            <h1>Sundeep Sharma</h1>
+            <p>Hy, I'm Sundeep Sharma<br>I'm a web developer from India.</p>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#aae3fa" fill-opacity="1" d="M0,224L80,197.3C160,171,320,117,480,112C640,107,800,149,960,144C1120,139,1280,85,1360,58.7L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+    </div>
+    <div class="other">
+        <div class="left">
+            <div class="expertise" id="expertise">
+                <h3>Expertise</h3>
+                <span class="html">
+                    <i class="fab fa-html5"></i> HTML
+                </span>
+                <span class="css">
+                    <i class="fab fa-css3"></i> CSS
+                </span>
+                <span class="js"><i class="fab fa-js"></i> JavaScript</span>
+            </div>
+            <div class="social" id="social">
+                <h3>Social Accounts</h3>
+                <div class="social-icons">
+                    <div class="fb">
+                        <i class="fab fa-facebook"></i>
+                        <a href="https://facebook.com/codewithsundeep1">Facebook</a>
+                    </div>
+                    <div class="ig">
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://instagram.com/codewithsundeep1">Instagram</a>
+                    </div>
+                    <div class="yt">
+                        <i class="fab fa-youtube"></i>
+                        <a href="https://youtube.com/codewithsundeep">Youtube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="projects" id="project">
+                <h2 id="projects">Projects</h2>
+                <div class="p1 p">
+                    <h3>Contact Management System</h3>
+                    <p>A Contacts Management System Web App using HTML, CSS, and JavaScript.</p>
+                    <p><i class="fab fa-github"></i><a href="">Github</a></p>
+                    <p>
+                        <i class="fas fa-globe"></i><a href="">Website</a>
+                    </p>
+                </div>
+                <div class="p2 p">
+                    <h3>Portfolio Website</h3>
+                    <p>Portfolio Website Using HTML, CSS, and JavaScript.</p>
+                    <p><i class="fab fa-github"></i><a href="">Github</a></p>
+                    <p>
+                        <i class="fas fa-globe"></i><a href="">Website</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder='Your Name...' required>
+            <input type="email" placeholder='Your Email...' required>
+            <textarea placeholder='Your Message...'></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <footer>&copy; Sundeep Sharma</footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
